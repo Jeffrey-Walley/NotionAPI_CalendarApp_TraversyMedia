@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Notion Calendar App using API, Notion, Postman, JavaScript Express Server, and HTML</title>
+</head>
+
+<!--
+        began this project by linking Postman with my Notion account and veriying i was able to transfer data. 
+
+        created my work folder, went to the work folder in terminal and:
+           $ npm init -y     // to create a json package
+           $ npm i @notionhq/client dotenv express  //install notion sdk, dotenv (enviormental notation), and express
+
+    -->
+
+<body>
+    <header>
+        <h1>another Jammin' Walley Production</h1>
+        <h3>the What am I doing this Month Calendar</h3>
+        <h6>stole from Brad Traversy @ Traversy Media</h6>
+    </header>
+
+    <main>
+        <div id="loading"><img src="images/loading.gif" alt="Loading" /></div>
+        <div id="days"></div>
+    </main>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
